@@ -1,6 +1,6 @@
 import os
 #most used directory:
-default = 'Введите полный путь к папке с логфайлами: \n'
+default = 'Enter the full path to the folder with the log files: \n'
 def path_setter(link, message=default, stage=False):
     if message[-1] != '\n':
         message += '\n'
